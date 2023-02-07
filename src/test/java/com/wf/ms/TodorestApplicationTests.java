@@ -35,7 +35,7 @@ class TodorestApplicationTests {
 	public void createTodo() throws Exception
 	{	
 		
-		Todo test = new Todo();
+		Todo test = new Todo(1,"Anil","Testing now",new Date(2017,10,22),false);
 		test.setDes("Testing now");
 		test.setDone(false);
 		test.setTargetDate(new Date(2017,10,22));
