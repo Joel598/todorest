@@ -38,7 +38,7 @@ class TodorestApplicationTests {
 		Todo test = new Todo();
 		test.setDes("Testing now");
 		test.setDone(false);
-		test.setTargetDate(new Date(2017,10,22));
+		test.setTargetDate(new Date());
 		test.setUser("Anil");
 		
 		ObjectMapper om = new ObjectMapper();

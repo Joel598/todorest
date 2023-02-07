@@ -75,7 +75,7 @@ public class Todo {
 		id = 1;
 		user = "Anil";
 		des = "Testing now";
-		targetDate = new Date(2017,10,22);
+		targetDate = new Date();
 		done = false;
 	}
 
