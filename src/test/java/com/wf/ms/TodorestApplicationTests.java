@@ -35,10 +35,10 @@ class TodorestApplicationTests {
 	public void createTodo() throws Exception
 	{	
 		
-		Todo test = new Todo(1,"Joel","software engineer",new Date(2017,10,22),true);
+		Todo test = new Todo();
 		test.setDes("Testing now");
 		test.setDone(false);
-		test.setTargetDate(new Date());
+		test.setTargetDate(new Date(2017,10,22));
 		test.setUser("Anil");
 		
 		ObjectMapper om = new ObjectMapper();
