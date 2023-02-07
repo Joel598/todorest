@@ -70,14 +70,13 @@ public class Todo {
 		this.done = done;
 	}
 	
-	public Todo() {
+	/*public Todo() {
 		// TODO Auto-generated constructor stub
-		int id = 1;
-		String user = "Anil";
+		user = "Anil";
 		String des = "Testing now";
 		Date targetDate = new Date(2017,10,22);
 		boolean done = false;
-	}
+	}*/
 
 	public Todo(int id, String user, String des, Date targetDate, boolean done) {
 		super();
