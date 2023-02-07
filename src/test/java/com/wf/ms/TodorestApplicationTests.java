@@ -24,7 +24,7 @@ class TodorestApplicationTests {
 
 	
 	@Test
-	void getTodos() throws Exception
+	getTodos() throws Exception
 	{	
 		mockMvc.perform(
 				MockMvcRequestBuilders.get("/todos"))
@@ -32,7 +32,7 @@ class TodorestApplicationTests {
 	}
 	
 	@Test
-	void createTodo() throws Exception
+	createTodo() throws Exception
 	{	
 		
 		Todo test = new Todo();
